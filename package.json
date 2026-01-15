@@ -1,0 +1,46 @@
+{
+  "name": "package",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --turbopack",
+    "export": "next build",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=18.18.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.4",
+    "tailwindcss": "^4",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "next": "^15.5.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "dependencyNotes": {
+    "next": "Pinned to Next 15.x for compatibility; upgrading to 16+ may require code changes.",
+    "react": "React 19.x is required by Next.js 15 for the App Router.",
+    "react-dom": "React DOM 19.x aligned with React 19.x and Next.js 15.",
+    "typescript": "TypeScript 5.9.x aligns with React 19 and latest Next.js tooling.",
+    "eslint": "ESLint 9.x is required for the flat config in eslint.config.mjs.",
+    "@types/react": "React 19 type definitions kept in sync with React 19 runtime.",
+    "@types/react-dom": "React DOM 19 type definitions kept in sync with React DOM 19 runtime."
+  }
+}
